@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Associated logo with the Organization schema instead of SiteNavigationElement -->
+
     <div class="wrapper" itemscope itemtype="https://schema.org/Organization">
         <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox">
         <label for="sidebar-toggle" class="sidebar-toggle-label">
             <span class="arrow">▶</span>
         </label>
 
-        <!-- Move the img and h3 inside the nav element for the sidebar -->
+        
         <nav id="sidebar">
             <div class="sidebar-header">
-                <img src="/ASSET/Saberlogo.png" alt="Saber Famiglia Logo" class="logo" itemprop="logo">
+                <img src="./ASSET/Saberlogo.png" alt="Saber Famiglia Logo" class="logo" itemprop="logo">
                 <h3 class="p-name" itemprop="name">SABER FAMIGLIA</h3>
             </div>
             <ul class="list-unstyled components">
@@ -39,7 +39,7 @@
 
             <div class="container">
                 <div class="form-container">
-                    <!-- Form is under Person schema -->
+              
                     <form action="table.html" method="get" itemscope itemtype="https://schema.org/Person">
                         <div class="mb-4">
                             <label for="fullName" class="form-label">Full Name</label>
